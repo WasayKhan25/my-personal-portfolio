@@ -29,25 +29,22 @@ Deployment: Vercel / GitHub Pages
 
 📂 Project Structure
 
+```text
 PORTFOLIO-WEBSITE/
-├── public/              # Static assets (Favicons, PDF Resume)
+├── public/                # Static assets (favicons, etc.)
 ├── src/
-│   ├── assets/          # Images, Illustrations, and SVGs
-│   ├── components/      # Reusable UI Atoms
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── ProjectCard.jsx
-│   │   ├── TechStack.jsx
-│   │   └── Contact.jsx
-│   ├── data/            # Centralized project & experience data (for easy updates)
-│   │   └── projects.js
-│   ├── App.jsx          # Main application entry and layout
-│   ├── index.css        # Tailwind directives and global styles
-│   └── main.jsx         # React DOM rendering
-├── .gitignore
-├── index.html
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
+│   ├── assets/           # Images, SVGs, and brand assets
+│   ├── components/       # Reusable UI components
+│   ├── data/             # Project and experience data
+│   ├── hooks/            # Custom React hooks
+│   ├── utils/            # Helper functions
+│   ├── App.jsx           # Main application logic
+│   ├── index.css         # Global styling and Tailwind directives
+│   └── main.jsx          # Entry point
+├── .env                  # Environment variables (Protected)
+├── .gitignore            # Git exclusion rules
+├── index.html            # HTML template
+├── package.json          # Dependencies and scripts
+├── vercel.json           # Vercel deployment configuration
+└── vite.config.js        # Vite configuration
 
