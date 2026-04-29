@@ -21,11 +21,11 @@ const projects = [
     github: "https://github.com/WasayKhan25/SolarTec",
   },
   {
-    title: "Flappy Bird",
+    title: "Enterprise Time-Off Sync Engine",
     description:
-      "An interactive game made using DSA concepts in C++.",
+      "A highly resilient backend microservice built to synchronize employee leave balances with external systems. It leverages the Transactional Outbox pattern and strict idempotency controls to guarantee data integrity during network failures.",
     image: "/projects/project3.webp",
-    tags: ["C++"],
+    tags: ["NestJS", "SQLite" , "TypeORM", "Jest"],
     link: "#",
     github: "#",
   },

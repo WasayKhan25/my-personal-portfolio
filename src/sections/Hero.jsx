@@ -11,8 +11,11 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 const skills = [
   "React",
   "Tailwind CSS",
-  "JavaScript",
+  "JavaScript (ES6)",
   "Node.js",
+  "NestJS",
+  "SQLite",
+  "TypeORM",
   "SQL",
   "MongoDB",
   "C++",
@@ -62,7 +65,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Software Engineer • Full Stack Developer
               </span>
             </div>
 
@@ -71,15 +74,14 @@ export const Hero = () => {
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Crafting <span className="text-primary glow-text">seamless</span>
                 <br />
-                experiences with
+                interfaces and
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                resilient systems.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Abdul Wasay Ali Khan, I am a software engineer Specialized in building scalable, 
-                user-centric interfaces. Currently bridging the gap between sleek frontend design and full-stack logic
+              Hi, I'm Abdul Wasay. I'm a Full Stack Developer focused on building scalable, user-centric applications. I bridge the gap between clean frontend interfaces and highly resilient, fault-tolerant backend architectures.
               </p>
             </div>
 

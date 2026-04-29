@@ -11,7 +11,7 @@ const highlights = [
     icon: Rocket,
     title: "Performance",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Optimizing for speed across both the frontend UI and backend APIs to deliver lightning-fast experiences.",
   },
   {
     icon: Users,
@@ -40,35 +40,32 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-            Building intuitive web experiences,
+            Building intuitive web experiences
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                and resilient systems..
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-              I'm a passionate software developer dedicated to crafting clean, 
-              responsive digital products. My journey started with a deep curiosity for how things work on the web, 
-              which has driven me throughout my journey and in my software internship,
-              where I gained hands on experience building functional management systems & getting expertise in modern frontend
-              technologies.
+              I'm a passionate software developer dedicated to crafting clean, responsive, and fault-tolerant digital products. My journey started with a deep curiosity for how the web works, 
+              driving me from building functional frontend management systems during my internship to engineering robust backend microservices.
               </p>
               <p>
-              I specialize in React, JavaScript, and Tailwind CSS. Whether I'm building sleek landing pages or interactive admin dashboards, 
-              my approach combines a strong technical foundation with a keen eye for modern design and seamless user experiences.
+              I specialize in bridging the gap between sleek user interfaces and complex data logic.
+               My stack includes React.js and Tailwind CSS for the frontend, paired with Node.js, NestJS, and SQLite for secure, scalable server design. Whether I'm developing interactive admin dashboards or implementing transactional database patterns, my approach combines a keen eye for modern design with strict architectural rigor.
               </p>
               <p>
-                When I'm not coding, When I'm not coding, you'll find me exploring new front-end technologies,
-                 tackling academic projects,or finding new ways to level up my development skills.
+              When I'm not coding, you'll find me exploring distributed systems architecture, tackling complex algorithmic challenges, 
+              or finding new ways to level up my full-stack development skills.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to build web applications that are not just functional, but truly intuitive 
-                creating interfaces that users love to navigate and writing code that is easy to build upon.."
+                "My mission is to build digital products that are architecturally sound from the ground
+                 upcreating interfaces users love to navigate, powered by backend systems that never fail."
               </p>
             </div>
           </div>
